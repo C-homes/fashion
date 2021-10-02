@@ -1,0 +1,231 @@
+#shopprocess {
+    height: 32px;
+
+    img {
+        width: 567px;
+        height: 32px;
+        float: right;
+    }
+}
+
+#shopcar {
+    width: 985px;
+
+    .shopt {
+        width: 985px;
+        height: 40px;
+        margin-top: 20px;
+
+        span {
+            display: block;
+            width: 65px;
+            height: 40px;
+            padding: 5px 0;
+            border-bottom: 2px solid #e4393c;
+            font: 700 16px/16px "微软雅黑";
+            color: #e4393c;
+        }
+    }
+
+    .carlist {
+        width: 985px;
+
+        table {
+            width: 985px;
+
+            th {
+                background: none repeat scroll 0 0 #F5F5F5;
+                border-top: 1px solid #DFDFDF;
+                color: #000000;
+                font-size: 12px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                vertical-align: middle;
+            }
+
+            td {
+                border-bottom: 0px solid #E6E6E6;
+                border-right: 0px solid #E6E6E6;
+                color: #333;
+                font-size: 12px;
+                padding: 0;
+                text-align: center;
+
+                .reducebtn {
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    float: left;
+                    background-color: #fff;
+                    border: 1px solid #000;
+                    cursor: pointer;
+                }
+
+                .goodnum {
+                    width: 30px;
+                    height: 20px;
+                    float: left;
+                    border: 1px solid #000;
+                    text-align: center;
+                    margin: 0 3px;
+                }
+
+                .addbtn {
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    float: left;
+                    border: 1px solid #000;
+                    background-color: #fff;
+                    cursor: pointer;
+                }
+            }
+
+            tr {
+                border-bottom: 1px solid #DFDFDF;
+
+                .goodpic {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                        margin: 5px 0 5px 20px;
+                    }
+
+                    span {
+                        display: inline-block;
+                        width: 180px;
+                        height: 60px;
+                        line-height: 60px;
+                    }
+                }
+
+                .goodprice {
+                    color: #777777;
+                }
+
+                .goodtotalprice {
+                    color: #d10436;
+                }
+                .collection
+                {
+                    cursor: pointer;
+                }
+                .delete
+                {
+                    cursor: pointer;
+                    margin-left: 5px;
+                }
+            }
+            .goodcarlist tr 
+            {
+                border-bottom: 1px solid #DFDFDF;
+            }
+        }
+
+        .totalbox {
+            .totalshow {
+                width: 985px;
+                height: 50px;
+                padding-top: 16px;
+                border-bottom: 1px solid #DFDFDF;
+                span 
+                {
+                    font-size: 12px;
+                }
+                input {
+                    margin-left: 35px;
+                }
+
+                .allcheck {
+                    margin-left: 60px;
+                    font-weight: 700;
+                    color: #e4393c;
+                }
+
+                .allcheckdel {
+                    margin-left: 60px;
+                    cursor: pointer;
+                }
+
+                .allchecknum {
+                    float: right;
+
+                    .goodlistprice {
+                        font-size: 18px;
+                        color: #d10436;
+                    }
+                }
+            }
+
+            .totalnumshow {
+                width: 985px;
+                height: 50px;
+                padding-top: 16px;
+                border-bottom: 1px solid #DFDFDF;
+
+                span {
+                    float: right;
+                    i 
+                    {
+                        color: #d10436;
+                    }
+                }
+            }
+
+            .totalmoneybox {
+                width: 985px;
+                height: 50px;
+                padding-top: 16px;
+                border-bottom: 1px solid #DFDFDF;
+
+                .agp {
+                    float: right;
+
+                    .allgoodprice {
+                        font-size: 18px;
+                        color: #d10436;
+                    }
+                }
+            }
+        }
+
+        .checkout {
+            width: 985px;
+            height: 50px;
+
+            span {
+                float: right;
+            }
+
+            .putupdata {
+                display: block;
+                margin-left: 10px;
+                margin-top: 16px;
+                width: 100px;
+                height: 40px;
+                background-color: #f85858;
+                color: #fff;
+                font: 100 14px/40px "微软雅黑";
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .goonshop {
+                display: block;
+                margin-top: 20px;
+                width: 80px;
+                height: 30px;
+                background-color: #afaeae;
+                color: #000;
+                font: 100 14px/30px "微软雅黑";
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+}

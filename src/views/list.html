@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../sass/dist/index.css">
+    <link rel="stylesheet" href="../sass/dist/login.css">
+    <link rel="stylesheet" href="../sass/dist/list.css">
+    <script src="../lib/jquery/jquery-3.6.0.js"></script>
+    <script src="../lib/utils.js"></script>
+    <script src="../lib/cookie.js"></script>
+    <title>风尚购物-列表页</title>
+</head>
+
+<body>
+    <div class="indexpage">
+        <div id="indextop">
+            <div class="logintopl">
+                <ul>
+                    <li><span>欢迎来到风尚购物</span></li>
+                    <li><span class="loginbtn">登录</span></li>
+                    <li><span class="regsiterbtn">注册</span></li>
+                </ul>
+            </div>
+            <div class="logintopr">
+                <ul>
+                    <li>
+                        <span class="myfashion">我的风尚</span><i>|</i>
+                        <ul class="topdownlist">
+                            <li>我的订单</li>
+                            <li>我的收藏</li>
+                        </ul>
+                    </li>
+                    <li><span>4001-677-077</span><i>|</i></li>
+                    <li><span class="customercenter">客服中心</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="indexbanner">
+        <div class="common">
+            <div class="fscontent">
+                <div class="fslogo"><img src="../assets/img/FSLogo.png" alt=""></div>
+                <div class="freecarry"><img src="../assets/img/freeCarry.jpg" alt=""></div>
+                <div class="searchCon">
+                    <div class="searchBar">
+                        <input type="text" value="请输入商品关键词或者货号" class="searchInput" name="search" id="searchKeyWord">
+                        <input type="button" class="searchBtn" id="BtnSearch" value="搜索">
+                        <input style="display: none">
+                    </div>
+                    <div class="hotSearch">
+                        <a>鞋子</a>
+                        <a>薇依床品</a>
+                        <a>空气炸锅</a>
+                        <a>零食</a>
+                        <a>酒</a>
+                        <a>羽绒服</a>
+                        <a>牛肉</a>
+                    </div>
+                </div>
+                <div class="Cart">
+                    <a><i class="cartIcon">&nbsp;</i>我的购物车<i>&gt;</i></a>
+                </div>
+            </div>
+            <div class="navbar">
+                <div class="category">
+                    <div class="allgood"> 全部商品分类<i class="todown"></i></div>
+                    <div class="sortlist show">
+                        <ul>
+                            <li class="listmain li_0">
+                                <a href="" class="lik_0">
+                                    <p>家居生活<i>></i></p>
+                                </a>
+                                <div class="itemlist home" type="homelife">
+                                    <div class="itemtop">
+                                        <div class="itemtag">
+                                            家居生活
+                                        </div>
+                                        <div>
+                                            <span class="tagr">></span>
+                                            <a href="" class="tagitem">家居用品</a><i>|</i>
+                                            <a href="" class="tagitem">家居用品</a><i>|</i>
+                                            <a href="" class="tagitem">家居用品</a><i>|</i>
+                                            <a href="" class="tagitem">家居用品</a>
+                                        </div>
+                                    </div>
+                                    <div class="hottag">相关热门</div>
+                                    <div class="showlist">
+                                        <ul>
+                                            <!-- <li>
+                                                <img src="../assets/img/310881-1.jpg" alt="">
+                                                <p class="goodtitle">浙锦桑蚕丝被组</p>
+                                                <p class="goodprice">
+                                                    <span>价格:</span>
+                                                    <span>￥ 199.00</span>
+                                                </p>
+                                            </li>-->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="listmain li_1">
+                                <a href="" class="lik_1">
+                                    <p>数码家电<i>></i></p>
+                                </a>
+                                <div class="itemlist appliance" type="appliance">
+                                    <div class="itemtop">
+                                        <div class="itemtag">
+                                            数码家电
+                                        </div>
+                                        <div>
+                                            <span class="tagr">></span>
+                                            <a href="" class="tagitem">数码家电</a><i>|</i>
+                                            <a href="" class="tagitem">数码家电</a><i>|</i>
+                                            <a href="" class="tagitem">数码家电</a><i>|</i>
+                                            <a href="" class="tagitem">数码家电</a>
+                                        </div>
+                                    </div>
+                                    <div class="hottag">相关热门</div>
+                                    <div class="showlist">
+                                        <ul>
+                                            <!-- <li>
+                                                <img src="../assets/img/310881-1.jpg" alt="">
+                                                <p class="goodtitle">浙锦桑蚕丝被组</p>
+                                                <p class="goodprice">
+                                                    <span>价格:</span>
+                                                    <span>￥ 199.00</span>
+                                                </p>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="listmain li_2">
+                                <a href="" class="lik_2">
+                                    <p>保健养生<i>></i></p>
+                                </a>
+                                <div class="itemlist care" type="healthcare">
+                                    <div class="itemtop">
+                                        <div class="itemtag">
+                                            保健养生
+                                        </div>
+                                        <div>
+                                            <span class="tagr">></span>
+                                            <a href="" class="tagitem">保健养生</a><i>|</i>
+                                            <a href="" class="tagitem">保健养生</a><i>|</i>
+                                            <a href="" class="tagitem">保健养生</a><i>|</i>
+                                            <a href="" class="tagitem">保健养生</a>
+                                        </div>
+                                    </div>
+                                    <div class="hottag">相关热门</div>
+                                    <div class="showlist">
+                                        <ul>
+                                            <!-- <li>
+                                                <img src="../assets/img/310881-1.jpg" alt="">
+                                                <p class="goodtitle">浙锦桑蚕丝被组</p>
+                                                <p class="goodprice">
+                                                    <span>价格:</span>
+                                                    <span>￥ 199.00</span>
+                                                </p>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="listmain li_3">
+                                <a href="" class="lik_3">
+                                    <p>服饰配件<i>></i></p>
+                                </a>
+                                <div class="itemlist dress" type="dress">
+                                    <div class="itemtop">
+                                        <div class="itemtag">
+                                            服饰配件
+                                        </div>
+                                        <div>
+                                            <span class="tagr">></span>
+                                            <a href="" class="tagitem">服饰配件</a><i>|</i>
+                                            <a href="" class="tagitem">服饰配件</a><i>|</i>
+                                            <a href="" class="tagitem">服饰配件</a><i>|</i>
+                                            <a href="" class="tagitem">服饰配件</a>
+                                        </div>
+                                    </div>
+                                    <div class="hottag">相关热门</div>
+                                    <div class="showlist">
+                                        <ul>
+                                            <!-- <li>
+                                                <img src="../assets/img/310881-1.jpg" alt="">
+                                                <p class="goodtitle">浙锦桑蚕丝被组</p>
+                                                <p class="goodprice">
+                                                    <span>价格:</span>
+                                                    <span>￥ 199.00</span>
+                                                </p>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="listmain li_4">
+                                <a href="" class="lik_4">
+                                    <p>美容美发<i>></i></p>
+                                </a>
+                                <div class="itemlist beauty" type="beauty">
+                                    <div class="itemtop">
+                                        <div class="itemtag">
+                                            美容美发
+                                        </div>
+                                        <div>
+                                            <span class="tagr">></span>
+                                            <a href="" class="tagitem">美容美发</a><i>|</i>
+                                            <a href="" class="tagitem">美容美发</a><i>|</i>
+                                            <a href="" class="tagitem">美容美发</a><i>|</i>
+                                            <a href="" class="tagitem">美容美发</a>
+                                        </div>
+                                    </div>
+                                    <div class="hottag">相关热门</div>
+                                    <div class="showlist">
+                                        <ul>
+                                            <!-- <li>
+                                                <img src="../assets/img/310881-1.jpg" alt="">
+                                                <p class="goodtitle">浙锦桑蚕丝被组</p>
+                                                <p class="goodprice">
+                                                    <span>价格:</span>
+                                                    <span>￥ 199.00</span>
+                                                </p>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="listmain li_5">
+                                <a href="" class="lik_5">
+                                    <p>食品健康<i>></i></p>
+                                </a>
+                                <div class="itemlist health" type="food">
+                                    <div class="itemtop">
+                                        <div class="itemtag">
+                                            食品健康
+                                        </div>
+                                        <div>
+                                            <span class="tagr">></span>
+                                            <a href="" class="tagitem">食品健康</a><i>|</i>
+                                            <a href="" class="tagitem">食品健康</a><i>|</i>
+                                            <a href="" class="tagitem">食品健康</a><i>|</i>
+                                            <a href="" class="tagitem">食品健康</a>
+                                        </div>
+                                    </div>
+                                    <div class="hottag">相关热门</div>
+                                    <div class="showlist">
+                                        <ul>
+                                            <!-- <li>
+                                                <img src="../assets/img/310881-1.jpg" alt="">
+                                                <p class="goodtitle">浙锦桑蚕丝被组</p>
+                                                <p class="goodprice">
+                                                    <span>价格:</span>
+                                                    <span>￥ 199.00</span>
+                                                </p>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="listmain li_6">
+                                <a href="" class="lik_6">
+                                    <p>珠宝收藏<i>></i></p>
+                                </a>
+                                <div class="itemlist jewelry" type="jewelry">
+                                    <div class="itemtop">
+                                        <div class="itemtag">
+                                            珠宝收藏
+                                        </div>
+                                        <div>
+                                            <span class="tagr">></span>
+                                            <a href="" class="tagitem">珠宝收藏</a><i>|</i>
+                                            <a href="" class="tagitem">珠宝收藏</a><i>|</i>
+                                            <a href="" class="tagitem">珠宝收藏</a><i>|</i>
+                                            <a href="" class="tagitem">珠宝收藏</a>
+                                        </div>
+                                    </div>
+                                    <div class="hottag">相关热门</div>
+                                    <div class="showlist">
+                                        <ul>
+                                            <!--                                             <li>
+                                                <img src="../assets/img/310881-1.jpg" alt="">
+                                                <p class="goodtitle">浙锦桑蚕丝被组</p>
+                                                <p class="goodprice">
+                                                    <span>价格:</span>
+                                                    <span>￥ 199.00</span>
+                                                </p>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a class="navindex">首页</a></li>
+                        <li><a href="javascript:;">电视直播</a></li>
+                        <li><a href="javascript:;">热卖榜</a></li>
+                        <li><a href="javascript:;">风尚惠</a></li>
+                        <li><a href="javascript:;">品牌店中店</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> <!-- 列表内容 -->
+    <div class="common">
+        <div id="aside_bar">
+            <div class="aside_bart">
+                <h2>
+                    商品分类
+                </h2>
+            </div>
+            <div class="aside_barc">
+                <div class="fit">
+                    <h3>
+                        所有类别
+                    </h3>
+                </div>
+                <div class="asideconlist">
+                    <ul>
+                        <li><a href="">数码家电</a></li>
+                        <li><a href="">美容美发</a></li>
+                        <li><a href="">珠宝收藏</a></li>
+                        <li><a href="">保健养生</a></li>
+                        <li><a href="">家居生活</a></li>
+                        <li><a href="">服饰配件</a></li>
+                        <li><a href="">食品健康</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="goodlistc">
+            <!--   <div class="gitem">
+                <img src="../assets/img/主3.jpg" alt="">
+                <p>日本儿童用牙膏-D</p>
+                <span>￥25.00</span>
+                <span>立即订购</span>
+            </div> -->
+        </div>
+        <div class="page"></div>
+    </div>
+
+    <!-- 固定右框 -->
+    <div id="siderFix">
+        <ul>
+            <li class="sidercar"><a>购物车</a><i>0</i></li>
+            <li><a>我的消息</a><i>0</i></li>
+            <li class="wechatgroup">
+                <a>微信公众号</a>
+                <img src="../assets/img/QRCode.jpg" alt="" class="QRCode">
+            </li>
+        </ul>
+    </div>
+    <!-- 页脚 -->
+    <div id="footeradd">
+        <div class="itemlist common">
+            <div class="footeritem">
+                <div class="iconphone"></div>
+                <div>
+                    <a class="itemtitle">手机注册 一步完成</a>
+                    <p>输入手机号-输入验证码-获取手机</p>
+                    <p>验证码-设定密码-完成注册</p>
+                </div>
+            </div>
+            <div class="footeritem specialshop">
+                <div class="iconshop"></div>
+                <div>
+                    <a class="itemtitle">型录/电商/新媒体视频招商加盟</a>
+                    <p>柳小姐：15979018025</p>
+                </div>
+            </div>
+            <div class="footeritem">
+                <div class="iconcustom"></div>
+                <div>
+                    <a class="itemtitle">在线客服</a>
+                    <p>24小时客服热线:</p>
+                    <p>4001-567-567转2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerlink">
+        <div class="common">
+            <div class="FSIntro">
+                <a><img alt="#" src="../assets/img/FSBreif.jpg"></a>
+                <h4><a>关于风尚购物</a>
+                </h4>
+                <p>江西风尚电视购物股份有限公司于2009年9月28日正式成立，公司致力于现代家庭电视购物，是传媒和零售的完美组合。江西电视台风尚购物频道是经国家广电总局批准的全国性的、同时也是江西第一家真正的专业家庭电视购物频道。
+                </p>
+            </div>
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a>购物流程</a></dd>
+                <dd><a>积分规则</a></dd>
+                <dd><a>积分绑定</a></dd>
+                <dd><a>使用订单状态说明</a></dd>
+            </dl>
+
+            <dl>
+                <dt>配送方式</dt>
+                <dd><a>免费配送地区</a></dd>
+                <dd><a>配送范围</a></dd>
+                <dd><a>收费标准</a></dd>
+            </dl>
+
+            <dl>
+                <dt>支付方式</dt>
+                <dd><a>货到付款</a></dd>
+                <dd><a>银联支付</a></dd>
+                <dd><a>支付宝</a></dd>
+                <dd><a>微信支付</a></dd>
+            </dl>
+
+            <dl>
+                <dt>客户服务</dt>
+                <dd><a>售后及退换货</a></dd>
+                <dd><a>在线客服</a></dd>
+            </dl>
+
+            <dl>
+                <dt>会员中心</dt>
+                <dd><a>资料修改</a></dd>
+                <dd><a>找回密码</a></dd>
+                <dd><a>会员等级</a></dd>
+                <dd><a>会员权益 </a></dd>
+            </dl>
+
+            <dl>
+                <dt>招商专区</dt>
+                <dd><a>关于我们</a></dd>
+                <dd><a>合作流程</a></dd>
+                <dd><a>联系我们</a></dd>
+                <dd><a>供应商系统</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div id="sitelink">
+        <div class="common">
+            <p class="opy"></p>
+            <div class="police">
+                <img src="../assets/img/beian.png" alt="">
+                <p>赣公网安备 36010902000272号</p>
+            </div>
+            <p class="opy"></p>
+            <p class="w">
+                <a><img src="../assets/img/unionpay.jpg"></a>
+                <a><img src="../assets/img/alipay.jpg"></a>
+                <a><img src="../assets/img/weChatPay.jpg"></a>
+                <a><img src="../assets/img/ICPNum.jpg"></a>
+                <a><img src="../assets/img/TrustSite.jpg"></a>
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+    <script src="../lib/pagination.js"></script>
+    <script src="../js/nav.js"></script>
+    <script src="../js/list.js"></script>
+</body>
+
+</html>

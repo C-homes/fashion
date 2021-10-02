@@ -1,0 +1,194 @@
+@charset "UTF-8";
+#shopprocess {
+  height: 32px;
+}
+#shopprocess img {
+  width: 567px;
+  height: 32px;
+  float: right;
+}
+
+#shopcar {
+  width: 985px;
+}
+#shopcar .shopt {
+  width: 985px;
+  height: 40px;
+  margin-top: 20px;
+}
+#shopcar .shopt span {
+  display: block;
+  width: 65px;
+  height: 40px;
+  padding: 5px 0;
+  border-bottom: 2px solid #e4393c;
+  font: 700 16px/16px "微软雅黑";
+  color: #e4393c;
+}
+#shopcar .carlist {
+  width: 985px;
+}
+#shopcar .carlist table {
+  width: 985px;
+}
+#shopcar .carlist table th {
+  background: none repeat scroll 0 0 #F5F5F5;
+  border-top: 1px solid #DFDFDF;
+  color: #000000;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+#shopcar .carlist table td {
+  border-bottom: 0px solid #E6E6E6;
+  border-right: 0px solid #E6E6E6;
+  color: #333;
+  font-size: 12px;
+  padding: 0;
+  text-align: center;
+}
+#shopcar .carlist table td .reducebtn {
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+#shopcar .carlist table td .goodnum {
+  width: 30px;
+  height: 20px;
+  float: left;
+  border: 1px solid #000;
+  text-align: center;
+  margin: 0 3px;
+}
+#shopcar .carlist table td .addbtn {
+  display: block;
+  width: 20px;
+  height: 20px;
+  font-size: 16px;
+  line-height: 20px;
+  float: left;
+  border: 1px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+#shopcar .carlist table tr {
+  border-bottom: 1px solid #DFDFDF;
+}
+#shopcar .carlist table tr .goodpic img {
+  width: 60px;
+  height: 60px;
+  margin: 5px 0 5px 20px;
+}
+#shopcar .carlist table tr .goodpic span {
+  display: inline-block;
+  width: 180px;
+  height: 60px;
+  line-height: 60px;
+}
+#shopcar .carlist table tr .goodprice {
+  color: #777777;
+}
+#shopcar .carlist table tr .goodtotalprice {
+  color: #d10436;
+}
+#shopcar .carlist table tr .collection {
+  cursor: pointer;
+}
+#shopcar .carlist table tr .delete {
+  cursor: pointer;
+  margin-left: 5px;
+}
+#shopcar .carlist table .goodcarlist tr {
+  border-bottom: 1px solid #DFDFDF;
+}
+#shopcar .carlist .totalbox .totalshow {
+  width: 985px;
+  height: 50px;
+  padding-top: 16px;
+  border-bottom: 1px solid #DFDFDF;
+}
+#shopcar .carlist .totalbox .totalshow span {
+  font-size: 12px;
+}
+#shopcar .carlist .totalbox .totalshow input {
+  margin-left: 35px;
+}
+#shopcar .carlist .totalbox .totalshow .allcheck {
+  margin-left: 60px;
+  font-weight: 700;
+  color: #e4393c;
+}
+#shopcar .carlist .totalbox .totalshow .allcheckdel {
+  margin-left: 60px;
+  cursor: pointer;
+}
+#shopcar .carlist .totalbox .totalshow .allchecknum {
+  float: right;
+}
+#shopcar .carlist .totalbox .totalshow .allchecknum .goodlistprice {
+  font-size: 18px;
+  color: #d10436;
+}
+#shopcar .carlist .totalbox .totalnumshow {
+  width: 985px;
+  height: 50px;
+  padding-top: 16px;
+  border-bottom: 1px solid #DFDFDF;
+}
+#shopcar .carlist .totalbox .totalnumshow span {
+  float: right;
+}
+#shopcar .carlist .totalbox .totalnumshow span i {
+  color: #d10436;
+}
+#shopcar .carlist .totalbox .totalmoneybox {
+  width: 985px;
+  height: 50px;
+  padding-top: 16px;
+  border-bottom: 1px solid #DFDFDF;
+}
+#shopcar .carlist .totalbox .totalmoneybox .agp {
+  float: right;
+}
+#shopcar .carlist .totalbox .totalmoneybox .agp .allgoodprice {
+  font-size: 18px;
+  color: #d10436;
+}
+#shopcar .carlist .checkout {
+  width: 985px;
+  height: 50px;
+}
+#shopcar .carlist .checkout span {
+  float: right;
+}
+#shopcar .carlist .checkout .putupdata {
+  display: block;
+  margin-left: 10px;
+  margin-top: 16px;
+  width: 100px;
+  height: 40px;
+  background-color: #f85858;
+  color: #fff;
+  font: 100 14px/40px "微软雅黑";
+  text-align: center;
+  cursor: pointer;
+}
+#shopcar .carlist .checkout .goonshop {
+  display: block;
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  background-color: #afaeae;
+  color: #000;
+  font: 100 14px/30px "微软雅黑";
+  text-align: center;
+  cursor: pointer;
+}

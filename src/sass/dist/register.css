@@ -1,0 +1,138 @@
+#registerpart {
+  height: 594px;
+  margin-top: 40px;
+  box-sizing: content-box;
+}
+#registerpart .registerparttop {
+  height: 37px;
+  background: #e6e6e6;
+  width: 982px;
+  border: 1px solid #666666;
+  margin: auto;
+}
+#registerpart .registerparttop p {
+  height: 37px;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: bold;
+  color: #444;
+}
+#registerpart .registerparttop .registertagleft {
+  float: left;
+}
+#registerpart .registerparttop .registertagright {
+  float: right;
+  margin-right: 5px;
+}
+#registerpart .registerparttop .registertagright span {
+  font-size: 14px;
+  text-align: center;
+  line-height: 37px;
+  font-weight: normal;
+}
+#registerpart .registerparttop .registertagright a {
+  margin-left: 5px;
+  font-size: 14px;
+  background-color: #fc4c65;
+  padding: 3px 7px;
+  color: #fff;
+  cursor: pointer;
+}
+#registerpart .registerpartcontent {
+  width: 982px;
+  height: 554px;
+  border: 1px solid #666;
+  margin: auto;
+  padding: 40px 40px 25px;
+  box-sizing: border-box;
+  border-top: 0px;
+}
+#registerpart .registerpartcontent .tagphone {
+  width: 910px;
+  height: 28px;
+  border-bottom: 1px solid #000;
+}
+#registerpart .registerpartcontent .tagphone a {
+  display: block;
+  width: 116px;
+  height: 27px;
+  background-color: #fc4c65;
+  color: #fff;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+}
+#registerpart .registerpartcontent .registerform {
+  width: 910px;
+  height: 460px;
+}
+#registerpart .registerpartcontent .registerform .registerinfo {
+  width: 535px;
+  height: 460px;
+  margin-left: 140px;
+  margin-top: 35px;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item {
+  padding-top: 20px;
+  width: 560px;
+  height: 46px;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .labeltext {
+  width: 110px;
+  display: inline-block;
+  text-align: left;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .labeltext i {
+  color: red;
+  margin-right: 3px;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .phone {
+  width: 248px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .phone i {
+  color: red;
+  margin-right: 3px;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .username {
+  width: 248px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .password {
+  width: 248px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .checknum {
+  width: 85px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item #checkshow {
+  display: inline-block;
+  width: 60px;
+  height: 26px;
+  vertical-align: bottom;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .checkpassword {
+  width: 248px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .item .checkchange {
+  cursor: pointer;
+}
+#registerpart .registerpartcontent .registerform .registerinfo .register {
+  width: 127px;
+  height: 27px;
+  background-color: #fc4c65;
+  color: #fff;
+  line-height: 27px;
+  text-align: center;
+  margin-left: 110px;
+  margin-top: 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>风尚购物-用户登录</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../sass/dist/login.css">
+    <script src="../lib/jquery/jquery-3.6.0.js"></script>
+    <script src="../lib/utils.js"></script>
+    <script src="../lib/cookie.js"></script>
+    <script src="../lib/gverify.js"></script>
+</head>
+<body>
+    <div class="loginpage">
+        <div id="logintop">
+            <div class="logintopl">
+                <ul>
+                    <li><span>欢迎来到风尚购物</span></li>
+                    <li><span class="loginbtn">登录</span></li>
+                    <li><span class="regsiterbtn">注册</span></li>
+                </ul>
+            </div>
+            <div class="logintopr">
+                <ul>
+                    <li>
+                        <span class="myfashion">我的风尚</span><i>|</i>
+                        <ul class="topdownlist">
+                            <li>我的订单</li>
+                            <li>我的收藏</li>
+                        </ul>
+                    </li>
+                    <li><span>4001-677-077</span><i>|</i></li>
+                    <li><span class="customercenter">客服中心</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="loginbanner">
+        <div class="common">
+            <div class="fslogo"><img src="../assets/img/FSLogo.png" alt=""></div>
+            <div class="freecarry"><img src="../assets/img/freeCarry.jpg" alt=""></div>
+        </div>
+    </div>
+    <div id="loginpart">
+        <div class="common">
+            <div class="loginparttop">
+                <p class="logintagleft">用户登录</p>
+            </div>
+            <div class="loginpartcontent">
+                <div class="loginform">
+                    <div class="item">
+                        <span class="labeltext"><i>*</i>手机号:</span>
+                        <input type="text" class="phone">
+                    </div>
+                    <div class="item">
+                        <span class="labeltext"><i>*</i>密码/短信验证码:</span>
+                        <input type="password" class="password">
+                    </div>
+                    <div class="item">
+                        <span class="labeltext">验证码:</span>
+                        <input type="text" class="checknum">
+                        <span id="checkshow"></span>
+                        <span class="checkchange">看不清,换一张</span>
+                    </div>
+                    <div class="rememberme">
+                        <input type="checkbox">
+                        <span>记住用户名</span>
+                    </div>
+                    <div class="login">
+                        登录
+                    </div>
+                </div>
+                <div class="loginregister">
+                    <h5>您还不是风尚购物用户？</h5>
+                    <div class="regcontent">现在免费注册成为风尚购物会员，便能立刻享受便宜又放心的购物体验。</div>
+                    <a class="reglinbtn">注册新用户</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footeradd">
+        <div class="itemlist common">
+            <div class="footeritem">
+                <div class="iconphone"></div>
+                <div>
+                    <a class="itemtitle">手机注册 一步完成</a>
+                    <p>输入手机号-输入验证码-获取手机</p>
+                    <p>验证码-设定密码-完成注册</p>
+                </div>
+            </div>
+            <div class="footeritem specialshop">
+                <div class="iconshop"></div>
+                <div>
+                    <a class="itemtitle">型录/电商/新媒体视频招商加盟</a>
+                    <p>柳小姐：15979018025</p>
+                </div>
+            </div>
+            <div class="footeritem">
+                <div class="iconcustom"></div>
+                <div>
+                    <a class="itemtitle">在线客服</a>
+                    <p>24小时客服热线:</p>
+                    <p>4001-567-567转2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerlink">
+        <div class="common">
+            <div class="FSIntro">
+                <a><img alt="#" src="../assets/img/FSBreif.jpg"></a>
+                <h4><a>关于风尚购物</a>
+                </h4>
+                <p>江西风尚电视购物股份有限公司于2009年9月28日正式成立，公司致力于现代家庭电视购物，是传媒和零售的完美组合。江西电视台风尚购物频道是经国家广电总局批准的全国性的、同时也是江西第一家真正的专业家庭电视购物频道。
+                </p>
+            </div>
+            <dl>
+                <dt>帮助中心</dt>
+                <dd><a>购物流程</a></dd>
+                <dd><a>积分规则</a></dd>
+                <dd><a>积分绑定</a></dd>
+                <dd><a>使用订单状态说明</a></dd>
+            </dl>
+
+            <dl>
+                <dt>配送方式</dt>
+                <dd><a>免费配送地区</a></dd>
+                <dd><a>配送范围</a></dd>
+                <dd><a>收费标准</a></dd>
+            </dl>
+
+            <dl>
+                <dt>支付方式</dt>
+                <dd><a>货到付款</a></dd>
+                <dd><a>银联支付</a></dd>
+                <dd><a>支付宝</a></dd>
+                <dd><a>微信支付</a></dd>
+            </dl>
+
+            <dl>
+                <dt>客户服务</dt>
+                <dd><a>售后及退换货</a></dd>
+                <dd><a>在线客服</a></dd>
+            </dl>
+
+            <dl>
+                <dt>会员中心</dt>
+                <dd><a>资料修改</a></dd>
+                <dd><a>找回密码</a></dd>
+                <dd><a>会员等级</a></dd>
+                <dd><a>会员权益 </a></dd>
+            </dl>
+
+            <dl>
+                <dt>招商专区</dt>
+                <dd><a>关于我们</a></dd>
+                <dd><a>合作流程</a></dd>
+                <dd><a>联系我们</a></dd>
+                <dd><a>供应商系统</a></dd>
+            </dl>
+        </div>
+    </div>
+    <div id="sitelink">
+        <div class="common">
+            <p class="opy"></p>
+            <div class="police">
+                <img src="../assets/img/beian.png" alt="">
+                <p>赣公网安备 36010902000272号</p>
+            </div>
+            <p class="opy"></p>
+            <p class="w">
+                <a><img src="../assets/img/unionpay.jpg"></a>
+                <a><img src="../assets/img/alipay.jpg"></a>
+                <a><img src="../assets/img/weChatPay.jpg"></a>
+                <a><img src="../assets/img/ICPNum.jpg"></a>
+                <a><img src="../assets/img/TrustSite.jpg"></a>
+            </p>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,441 @@
+.loginpage {
+    width: 100%;
+    background: #f2f2f2;
+
+    #logintop {
+        width: 1200px;
+        margin: auto;
+        height: 36px;
+        border-bottom: 1px solid #e5e5e5;
+
+        .logintopl {
+            float: left;
+
+            ul {
+                li {
+                    float: left;
+                    margin-left: 10px;
+
+                    span {
+                        font-size: 14px;
+                        color: #6c6c6c;
+                        line-height: 36px;
+                        cursor: pointer;
+                    }
+
+                    .loginbtn:hover {
+                        color: red;
+                    }
+
+                    .regsiterbtn:hover {
+                        color: red;
+                    }
+                }
+            }
+        }
+
+        .logintopr {
+            float: right;
+
+            ul {
+                li {
+                    float: left;
+                    position: relative;
+
+                    i {
+                        color: #6c6c6c
+                    }
+
+                    span {
+                        font-size: 14px;
+                        color: #6c6c6c;
+                        line-height: 36px;
+                        cursor: pointer;
+                        padding: 6px 10px;
+                    }
+
+                    .customercenter:hover {
+                        background-color: #fc4c65;
+                        color: #fff;
+                    }
+
+                    .topdownlist {
+                        width: 76px;
+                        background-color: #fff;
+                        text-align: center;
+                        border: 2px solid #fc4c65;
+                        position: absolute;
+                        display: none;
+                        top: 28px;
+                        z-index: 2;
+
+                        li {
+                            padding: 5px;
+                            cursor: pointer;
+                        }
+
+                        li:hover {
+                            color: #fc4c65;
+                        }
+                    }
+                }
+
+                li:nth-of-type(1):hover .topdownlist {
+                    display: block;
+                }
+
+                li:nth-of-type(1):hover .myfashion {
+                    background-color: #fc4c65;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+#loginbanner {
+    height: 158px;
+    border-bottom: 2px solid #fc4c65;
+
+    .fslogo {
+        width: 176px;
+        height: 125px;
+        margin-right: 70px;
+        padding-top: 30px;
+        float: left
+    }
+
+    .freecarry {
+        width: 176px;
+        height: 125px;
+        margin-right: 70px;
+        padding-top: 30px;
+        float: left;
+        padding-top: 50px;
+    }
+}
+
+#loginpart {
+    height: 286px;
+    margin-top: 40px;
+    box-sizing: content-box;
+
+    .loginparttop {
+        height: 37px;
+        background: #e6e6e6;
+        width: 998px;
+        border: 1px solid #666666;
+        margin: auto;
+
+        p {
+            height: 37px;
+            padding-left: 15px;
+            font-size: 16px;
+            line-height: 37px;
+            font-weight: bold;
+            color: #444;
+        }
+
+        .logintagleft {
+            float: left;
+        }
+    }
+
+    .loginpartcontent {
+        width: 998px;
+        height: 245px;
+        border: 1px solid #666;
+        margin: auto;
+        padding: 15px 40px 10px 24px;
+        box-sizing: border-box;
+        border-top: 0px;
+        zoom: 1;
+
+        .loginform {
+            width: 560px;
+            height: 216px;
+            float: left;
+            border-right: 1px dashed #666;
+            box-sizing: border-box;
+
+            .item {
+                padding-top: 15px;
+                width: 560px;
+                height: 40px;
+
+                .labeltext {
+                    width: 140px;
+                    display: inline-block;
+                    text-align: right;
+
+                    i {
+                        color: red;
+                        margin-right: 3px;
+                    }
+                }
+
+                .phone {
+                    width: 248px;
+                    height: 26px;
+                    border: 1px solid #ccc;
+
+                    i {
+                        color: red;
+                        margin-right: 3px;
+                    }
+                }
+                #checkshow 
+                {
+                    display: inline-block;
+                    width: 60px;
+                    height: 26px;
+                    vertical-align: bottom;
+                }
+                .password {
+                    width: 248px;
+                    height: 26px;
+                    border: 1px solid #ccc;
+                }
+
+                .checknum {
+                    width: 85px;
+                    height: 26px;
+                    border: 1px solid #ccc;
+                }
+                .checkchange
+                {
+                    cursor: pointer;
+                }
+            }
+
+            .rememberme {
+                margin-left: 140px;
+                padding-top: 15px;
+            }
+
+            .login{
+                margin-left: 140px;
+                display: inline-block;
+                text-align: center;
+                width: 85px;
+                height: 31px;
+                background-color: #fc4c65;
+                font-size: 14px;
+                font-weight: bold;
+                color: #fff;
+                line-height: 31px;
+                margin-top: 30px;
+                cursor: pointer;
+            }
+        }
+
+        .loginregister {
+            width: 300px;
+            padding: 0px 0px 15px 62px;
+            float: left;
+
+            h5 {
+                font-weight: bold;
+                margin-top: 20px;
+                font-size: 14px;
+            }
+
+            .regcontent {
+                color: #666;
+                padding: 25px 0 0;
+            }
+
+            .reglinbtn {
+                width: 137px;
+                height: 31px;
+                display: inline-block;
+                background-color: #fc4c65;
+                line-height: 31px;
+                margin: 39px 0 0px 0px;
+                font-weight: bold;
+                font-size: 14px;
+                text-align: center;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+#footeradd {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 42px;
+    margin-top: 50px;
+    background-color: #efefef;
+
+    %icon {
+        width: 65px;
+        height: 65px;
+        margin-top: 2px;
+        float: left;
+        background-image: url(../../assets/img/index_icon.png);
+        background-repeat: no-repeat;
+        margin-right: 20px;
+    }
+
+    .itemlist {
+        padding: 25px 0 25px 42px;
+        display: flex;
+        justify-content: space-between;
+
+        .footeritem {
+            width: 284px;
+            height: 70px;
+            float: left;
+
+            .iconphone {
+                @extend %icon;
+                background-position: -98px -65px;
+            }
+
+            .iconshop {
+                @extend %icon;
+                background-position: -98px -130px;
+            }
+
+            .iconcustom {
+                @extend %icon;
+                background-position: -98px -195px;
+            }
+
+            .itemtitle {
+                font-size: 17px;
+                color: #595757;
+                height: 30px;
+                line-height: 30px;
+                text-decoration: none;
+                font-weight: 700;
+                font-family: "黑体";
+            }
+
+            p {
+                font-size: 12px;
+                color: #595757;
+                height: 20px;
+                line-height: 20px;
+            }
+        }
+
+        .specialshop {
+            width: 348px;
+        }
+    }
+}
+
+#footerlink {
+    padding-top: 20px;
+    overflow: hidden;
+    background-color: #fff;
+
+    .FSIntro {
+        width: 418px;
+        float: left;
+        margin-right: 50px;
+
+        img {
+            float: left;
+            margin-right: 10px;
+            height: 122px;
+        }
+
+        h4 {
+            font-size: 15px;
+            font-weight: bold;
+            color: #777777;
+            height: 30px;
+            line-height: 30px;
+            cursor: pointer;
+
+            a:hover {
+                color: #fc4c65;
+            }
+        }
+
+        p {
+            line-height: 24px;
+            font-family: 'Microsoft YaHei';
+            font-size: 13px;
+            cursor: pointer;
+        }
+    }
+
+    dl {
+        float: left;
+        margin-right: 4px;
+
+        dt {
+            font-size: 16px;
+            font-family: "黑体";
+            line-height: 30px;
+            width: 118px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: 700;
+        }
+
+        dd {
+            height: 24px;
+            color: #777777;
+            text-decoration: none !important;
+            cursor: pointer;
+
+            a:hover {
+                color: #fc4c65;
+            }
+        }
+    }
+}
+
+#sitelink {
+    height: 268px;
+    padding: 20px 0;
+    background-color: #fff;
+
+    .opy {
+        height: 36px;
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .police {
+        width: 300px;
+        height: 60px;
+        margin: auto;
+        padding: 20px 0;
+
+        img {
+            float: left;
+        }
+
+        p {
+            float: left;
+            height: 20px;
+            line-height: 20px;
+        }
+    }
+
+    .w {
+        display: flex;
+        justify-content: center;
+
+        a {
+            margin: 0 15px;
+        }
+    }
+}
+
+#footer {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #f12e24;
+    color: #fff;
+    margin-top: 20px;
+}

@@ -1,0 +1,374 @@
+@charset "UTF-8";
+.loginpage {
+  width: 100%;
+  background: #f2f2f2;
+}
+.loginpage #logintop {
+  width: 1200px;
+  margin: auto;
+  height: 36px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.loginpage #logintop .logintopl {
+  float: left;
+}
+.loginpage #logintop .logintopl ul li {
+  float: left;
+  margin-left: 10px;
+}
+.loginpage #logintop .logintopl ul li span {
+  font-size: 14px;
+  color: #6c6c6c;
+  line-height: 36px;
+  cursor: pointer;
+}
+.loginpage #logintop .logintopl ul li .loginbtn:hover {
+  color: red;
+}
+.loginpage #logintop .logintopl ul li .regsiterbtn:hover {
+  color: red;
+}
+.loginpage #logintop .logintopr {
+  float: right;
+}
+.loginpage #logintop .logintopr ul li {
+  float: left;
+  position: relative;
+}
+.loginpage #logintop .logintopr ul li i {
+  color: #6c6c6c;
+}
+.loginpage #logintop .logintopr ul li span {
+  font-size: 14px;
+  color: #6c6c6c;
+  line-height: 36px;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+.loginpage #logintop .logintopr ul li .customercenter:hover {
+  background-color: #fc4c65;
+  color: #fff;
+}
+.loginpage #logintop .logintopr ul li .topdownlist {
+  width: 76px;
+  background-color: #fff;
+  text-align: center;
+  border: 2px solid #fc4c65;
+  position: absolute;
+  display: none;
+  top: 28px;
+  z-index: 2;
+}
+.loginpage #logintop .logintopr ul li .topdownlist li {
+  padding: 5px;
+  cursor: pointer;
+}
+.loginpage #logintop .logintopr ul li .topdownlist li:hover {
+  color: #fc4c65;
+}
+.loginpage #logintop .logintopr ul li:nth-of-type(1):hover .topdownlist {
+  display: block;
+}
+.loginpage #logintop .logintopr ul li:nth-of-type(1):hover .myfashion {
+  background-color: #fc4c65;
+  color: #fff;
+}
+
+#loginbanner {
+  height: 158px;
+  border-bottom: 2px solid #fc4c65;
+}
+#loginbanner .fslogo {
+  width: 176px;
+  height: 125px;
+  margin-right: 70px;
+  padding-top: 30px;
+  float: left;
+}
+#loginbanner .freecarry {
+  width: 176px;
+  height: 125px;
+  margin-right: 70px;
+  padding-top: 30px;
+  float: left;
+  padding-top: 50px;
+}
+
+#loginpart {
+  height: 286px;
+  margin-top: 40px;
+  box-sizing: content-box;
+}
+#loginpart .loginparttop {
+  height: 37px;
+  background: #e6e6e6;
+  width: 998px;
+  border: 1px solid #666666;
+  margin: auto;
+}
+#loginpart .loginparttop p {
+  height: 37px;
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 37px;
+  font-weight: bold;
+  color: #444;
+}
+#loginpart .loginparttop .logintagleft {
+  float: left;
+}
+#loginpart .loginpartcontent {
+  width: 998px;
+  height: 245px;
+  border: 1px solid #666;
+  margin: auto;
+  padding: 15px 40px 10px 24px;
+  box-sizing: border-box;
+  border-top: 0px;
+  zoom: 1;
+}
+#loginpart .loginpartcontent .loginform {
+  width: 560px;
+  height: 216px;
+  float: left;
+  border-right: 1px dashed #666;
+  box-sizing: border-box;
+}
+#loginpart .loginpartcontent .loginform .item {
+  padding-top: 15px;
+  width: 560px;
+  height: 40px;
+}
+#loginpart .loginpartcontent .loginform .item .labeltext {
+  width: 140px;
+  display: inline-block;
+  text-align: right;
+}
+#loginpart .loginpartcontent .loginform .item .labeltext i {
+  color: red;
+  margin-right: 3px;
+}
+#loginpart .loginpartcontent .loginform .item .phone {
+  width: 248px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#loginpart .loginpartcontent .loginform .item .phone i {
+  color: red;
+  margin-right: 3px;
+}
+#loginpart .loginpartcontent .loginform .item #checkshow {
+  display: inline-block;
+  width: 60px;
+  height: 26px;
+  vertical-align: bottom;
+}
+#loginpart .loginpartcontent .loginform .item .password {
+  width: 248px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#loginpart .loginpartcontent .loginform .item .checknum {
+  width: 85px;
+  height: 26px;
+  border: 1px solid #ccc;
+}
+#loginpart .loginpartcontent .loginform .item .checkchange {
+  cursor: pointer;
+}
+#loginpart .loginpartcontent .loginform .rememberme {
+  margin-left: 140px;
+  padding-top: 15px;
+}
+#loginpart .loginpartcontent .loginform .login {
+  margin-left: 140px;
+  display: inline-block;
+  text-align: center;
+  width: 85px;
+  height: 31px;
+  background-color: #fc4c65;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 31px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+#loginpart .loginpartcontent .loginregister {
+  width: 300px;
+  padding: 0px 0px 15px 62px;
+  float: left;
+}
+#loginpart .loginpartcontent .loginregister h5 {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 14px;
+}
+#loginpart .loginpartcontent .loginregister .regcontent {
+  color: #666;
+  padding: 25px 0 0;
+}
+#loginpart .loginpartcontent .loginregister .reglinbtn {
+  width: 137px;
+  height: 31px;
+  display: inline-block;
+  background-color: #fc4c65;
+  line-height: 31px;
+  margin: 39px 0 0px 0px;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+#footeradd {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 42px;
+  margin-top: 50px;
+  background-color: #efefef;
+}
+#footeradd .itemlist .footeritem .iconcustom, #footeradd .itemlist .footeritem .iconshop, #footeradd .itemlist .footeritem .iconphone {
+  width: 65px;
+  height: 65px;
+  margin-top: 2px;
+  float: left;
+  background-image: url(../../assets/img/index_icon.png);
+  background-repeat: no-repeat;
+  margin-right: 20px;
+}
+#footeradd .itemlist {
+  padding: 25px 0 25px 42px;
+  display: flex;
+  justify-content: space-between;
+}
+#footeradd .itemlist .footeritem {
+  width: 284px;
+  height: 70px;
+  float: left;
+}
+#footeradd .itemlist .footeritem .iconphone {
+  background-position: -98px -65px;
+}
+#footeradd .itemlist .footeritem .iconshop {
+  background-position: -98px -130px;
+}
+#footeradd .itemlist .footeritem .iconcustom {
+  background-position: -98px -195px;
+}
+#footeradd .itemlist .footeritem .itemtitle {
+  font-size: 17px;
+  color: #595757;
+  height: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "黑体";
+}
+#footeradd .itemlist .footeritem p {
+  font-size: 12px;
+  color: #595757;
+  height: 20px;
+  line-height: 20px;
+}
+#footeradd .itemlist .specialshop {
+  width: 348px;
+}
+
+#footerlink {
+  padding-top: 20px;
+  overflow: hidden;
+  background-color: #fff;
+}
+#footerlink .FSIntro {
+  width: 418px;
+  float: left;
+  margin-right: 50px;
+}
+#footerlink .FSIntro img {
+  float: left;
+  margin-right: 10px;
+  height: 122px;
+}
+#footerlink .FSIntro h4 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #777777;
+  height: 30px;
+  line-height: 30px;
+  cursor: pointer;
+}
+#footerlink .FSIntro h4 a:hover {
+  color: #fc4c65;
+}
+#footerlink .FSIntro p {
+  line-height: 24px;
+  font-family: "Microsoft YaHei";
+  font-size: 13px;
+  cursor: pointer;
+}
+#footerlink dl {
+  float: left;
+  margin-right: 4px;
+}
+#footerlink dl dt {
+  font-size: 16px;
+  font-family: "黑体";
+  line-height: 30px;
+  width: 118px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 700;
+}
+#footerlink dl dd {
+  height: 24px;
+  color: #777777;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+#footerlink dl dd a:hover {
+  color: #fc4c65;
+}
+
+#sitelink {
+  height: 268px;
+  padding: 20px 0;
+  background-color: #fff;
+}
+#sitelink .opy {
+  height: 36px;
+  width: 100%;
+  margin: 20px 0;
+}
+#sitelink .police {
+  width: 300px;
+  height: 60px;
+  margin: auto;
+  padding: 20px 0;
+}
+#sitelink .police img {
+  float: left;
+}
+#sitelink .police p {
+  float: left;
+  height: 20px;
+  line-height: 20px;
+}
+#sitelink .w {
+  display: flex;
+  justify-content: center;
+}
+#sitelink .w a {
+  margin: 0 15px;
+}
+
+#footer {
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  background-color: #f12e24;
+  color: #fff;
+  margin-top: 20px;
+}
